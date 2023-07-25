@@ -1,0 +1,16 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "{CA0B1324-47C0-C9D6-F348-AC94AA7DC29D}",
+	"Category": "",
+	"Description": "",
+	"Modules": [
+		{
+			"Name": "SSGame",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"Engine"
+			]
+		}
+	]
+}
