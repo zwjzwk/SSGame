@@ -122,6 +122,7 @@ void ASSGameCharacter::MoveForward(float Value)
 		const FVector Direction = FRotationMatrix(YawRotation).GetUnitAxis(EAxis::X);
 		AddMovementInput(Direction, Value);
 	}
+	Axis.Y = -Value;
 }
 
 void ASSGameCharacter::MoveRight(float Value)
@@ -137,4 +138,5 @@ void ASSGameCharacter::MoveRight(float Value)
 		// add movement in that direction
 		AddMovementInput(Direction, Value);
 	}
+	Axis.X = Value;
 }
